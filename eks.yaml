@@ -2,11 +2,11 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: electronic-shop
+  name: amazon-clone
   region: us-east-1
 
 managedNodeGroups:
-  - name: electronic-shop
+  - name: amazon-clone
     instanceTypes:
       - m5.large
       - c3.large
